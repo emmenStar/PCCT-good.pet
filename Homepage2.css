@@ -116,3 +116,31 @@ a.button {
   margin: top px;
 
 }
+
+section.slider {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.slider-content {
+  width: 400%;
+  height: auto;
+  display: flex;
+}
+
+.slider-content input {
+  display: none;
+}
+
+.slide-box {
+  width: auto;
+  position: relative;
+  text-align: center;
+}
+
+.slide-box img {
+  width: 100%;
+}
