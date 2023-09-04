@@ -18,4 +18,5 @@ function proximaImg() {
   document.getElementById('radio' + cont).checked = true
 
 
+
 }
