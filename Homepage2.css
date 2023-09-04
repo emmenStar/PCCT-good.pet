@@ -43,10 +43,6 @@ nav {
   height: 8vh;
 }
 
-main {
-  background-size: cover;
-}
-
 .nav-list {
   list-style: none;
   display: flex;
@@ -61,51 +57,6 @@ main {
   text-decoration: none;
 }
 
-.wrapper,
-.slide {
-  /*overflow: hidden;*/
-  width: 100%;
-  height: 90%;
-}
-
-.slide::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: rgb(rgb(255, 253, 253));
-  z-index: 10;
-}
-
-.slide .image {
-  height: 100%;
-  width: 100%;
-  max-height: 35rem;
-
-  object-fit: cover;
-}
-
-.slide .image-data {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 100%;
-}
-
-.image-data .span.text {
-  font-size: 14px;
-  font-weight: 400;
-  color: #ffff;
-}
-
-.image-data h2 {
-  font-size: 45%;
-  font-weight: 600;
-  color: #ffff;
-}
-
 a.button {
   display: inline-block;
   padding: 10px 20px;
@@ -114,33 +65,74 @@ a.button {
   background: #9AD6CE;
   text-decoration: none;
   margin: top px;
-
 }
 
-section.slider {
+selection.lider {
   margin: 0 auto;
   width: 100%;
   height: auto;
   padding: 0 !important;
-  overflow: hidden;
 }
 
 .slider-content {
-  width: 400%;
+  width: 500%;
   height: auto;
   display: flex;
 }
 
 .slider-content input {
   display: none;
+
 }
 
-.slide-box {
-  width: auto;
+.sider-box {
+  width: 25%;
+  height: auto;
   position: relative;
   text-align: center;
 }
 
-.slide-box img {
+.slider-box img {
   width: 100%;
+}
+
+.nav-manual,
+.nav-auto,
+.nav-auto div {
+
+  position: absolute;
+  width: 100%;
+  margin-top: 35%;
+  justify-content: center;
+}
+
+.nav-manual .manual-btn {
+  border: 1px solid #9AD6CE;
+  padding: 10px;
+  border-radius: 65%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.nav-manual .manual-btn:not(:last-child) {
+  margin-right: 10px;
+
+}
+
+.nav-manual .manual-btn:hover {
+  background-color: #9AD6CE;
+}
+
+#radio1:checked~.nav-auto .manual-btn1 {
+  background-color: #9AD6CE;
+}
+
+
+#radio2:checked~.nav-auto .manual-btn2 {
+  background-color: #9AD6CE;
+}
+
+
+#radio3:checked~.nav-auto .manual-btn3 {
+  background-color: #9AD6CE;
 }
