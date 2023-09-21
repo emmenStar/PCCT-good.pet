@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" contaent="IE=edge">
   <meta name="viewport" content="whidth=device-whidth, initial-scale=1.0">
   <title>Good.pet</title>
-  <link rel="stylesheet" href="./src/Homepage2.css">
+  <link rel="stylesheet" href="Página inicial.css">
   <script src="../goodpet/src/homepage3.js" defer></script>
 
 </head>
@@ -15,7 +15,7 @@
   <header>
     <nav>
       <a class="logo" href="">
-        <img src="../goodpet/imagens/logo (1).png">
+        <img src="./logo (1).png">
 
       </a>
 
@@ -32,51 +32,58 @@
         <li><a href="#">CONTATO</a></li>
       </ul>
 
+
+
       <div class="toggle_btn">
         <i class="fa-regular fa bars" i>
       </div>
       <a class="logo" href="">
-        <img src="../goodpet/imagens/usuario.png">
+        <img src="./usuario.png">
 
         </ul>
     </nav>
   </header>
-  <section class="slider">
-    <div class="slider-content">
+  <div class="slider-container" >
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
 
-      <input type="radio" name="btn-radio" id="radio1">
-      <input type="radio" name="btn-radio" id="radio2">
-      <input type="radio" name="btn-radio" id="radio3">
+            <div class="slide first">
+                <img src="src/carrossel1.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="src/carrossel2.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="src/carrossel3.png" alt="">
+            </div>
+            <div class="navigation-auto">
+                <div class= "auto-btn1" ></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3" ></div>
+            </div>
+        </div>
+        <div class="navigation-bar">
+            <label class="manual-btn" for="radio1"></label>
+            <label class="manual-btn" for="radio2"></label>
+            <label class="manual-btn" for="radio3"></label>
+        </div>
+    </div>    
+</div>
 
-      <div class="slider-box primeiro">
-        <img class="img-desktop" src="../goodpet/imagens/carrossel1.png" alt="slide1">
+    <div class="container-wrapper">
+        <div class="container">
+            <h2>Sobre nós</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel lobortis nunc. Sed eu sem id urna maximus convallis. Vestibulum hendrerit fringilla mi, vitae suscipit metus venenatis sed. Phasellus gravida eros id est ultrices, vitae ullamcorper sem tincidunt.</p>
+        </div>
 
-      </div>
-
-      <div class="slider-box">
-        <img class="img-desktop" src="../goodpet/imagens/carrossel2.png" alt="slide 2">
-
-      </div>
-
-      <div class="slider-box">
-        <img class="img-desktop" src="../goodpet/imagens/carrossel3.png" alt="slide 3">
-
-      </div>
-      <div class="nav-auto">
-        <div class="auto-btn1"></div>
-        <div class="auto-btn2"></div>
-        <div class="auto-btn3"></div>
-      </div>
-      <div class="nav-manual">
-        <label for="radio1" class="manual-btn"></label>
-        <label for="radio2" class="manual-btn"></label>
-        <label for="radio3" class="manual-btn"></label>
-      </div>
-
+        <div class="container">
+            <h2>Sobre nós</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel lobortis nunc. Sed eu sem id urna maximus convallis. Vestibulum hendrerit fringilla mi, vitae suscipit metus venenatis sed. Phasellus gravida eros id est ultrices, vitae ullamcorper sem tincidunt.</p>
+        </div>
     </div>
-  </section>
 
-  <script src="../goodpet/src/carrossel.js"></script>
 </body>
-
 </html>
