@@ -10,7 +10,7 @@
 a {
   color: #ffff;
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.4s;
   list-style: none;
 }
 
@@ -22,15 +22,15 @@ a {
 }
 
 .logo {
-  font-size: 2px;
+  font-size: 3px;
   text-transform: uppercase;
   margin-top: 0%;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 
 }
 
 .photo_usuario {
-  height: 70px;
+  height: 55px;
 
 }
 
@@ -40,7 +40,7 @@ nav {
   align-items: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: #9AD6CE;
-  height: 8vh;
+  height: 26vh;
 }
 
 .nav-list {
@@ -59,7 +59,7 @@ nav {
 
 a.button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 15px 20px;
   border-radius: 30px;
   color: #ffff;
   background: #9AD6CE;
@@ -74,78 +74,156 @@ selection.lider {
   padding: 0 !important;
   overflow: hidden;
 }
-
-.slider-content {
-  width: 500%;
-  height: auto;
-  display: flex;
-}
-
-.slider-content input {
-  /*display: none;*/
+.swiper-slide {
+    text-align: center;
+    font-size: 39px;
+    background: #fff;
 
 }
 
-.sider-box {
-  width: 25%;
-  height: auto;
-  position: relative;
-  text-align: center;
-}
-
-.slider-box img {
-  width: 100%;
-}
-
-.nav-manual,
-.nav-auto,
-.nav-auto div {
-
-  position: absolute;
-  width: 100%;
-  margin-top: 35%;
-  justify-content: center;
-}
-
-.nav-manual .manual-btn {
-  border: 1px solid #9AD6CE;
-  padding: 10px;
-  border-radius: 65%;
-  cursor: pointer;
-  transition: 5ms;
-}
-
-.nav-manual .manual-btn:not(:last-child) {
-  margin-right: 10px;
-
-}
-
-.nav-manual .manual-btn:hover {
-  background-color: #9AD6CE;
-}
-
-#radio1:checked~.nav-auto .auto-btn1 {
-  background-color: #9AD6CE;
+h1 {
+    text-align: center;
 }
 
 
-#radio2:checked~.nav-auto .auto-btn2 {
-  background-color: #9AD6CE;
+footer p {
+    margin: 0;
+    padding: 15px 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.dropdown-toggle .arrow {
+    margin-left: 0px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li {
+    padding: 5px;
+    display: block;
+    margin-right: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 
-#radio3:checked~.nav-auto .auto-btn3 {
-  background-color: #9AD6CE;
+.container-wrapper {
+    display: flex;
+    margin-top: -10%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.slider{
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    position: absolute; 
 }
 
-#radio1-checked~primeiro {
-  margin-left: 0%;
+.slides{
+    display: flex;
+}
+.navigation-bar{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+}
+input{
+    display: none;
 }
 
-#radio2-checked~primeiro {
-  margin-left: -25%;
+.manual-btn{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius:10px;
+    cursor: pointer ;
+
+}
+.manual-btn:not(:last-child){
+    margin-right: 20px;
+
+}
+.manual-btn:hover{
+    background: #fff;
+    transition: 0.4s;
 }
 
-#radio3-checked~primeiro1{
-  margin-left: -50%;
+.slides{
+    display: flex;
+    width: 400%;
+    height: 100%;
+    
+}
+
+.slide{
+    width: 100%;
+    transition: 0.5s;
+}
+
+.slide img{
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#radio1:checked~.first{
+    margin-left: 0;
+}
+
+#radio2:checked~.first{
+    margin-left: -60%;
+}
+
+#radio3:checked~.first{
+    margin-left: -180%;
+}
+
+#radio1:checked~.navigation-auto .auto-btn1{
+    background-color: #fff;
+}
+
+#radio2:checked~.navigation-auto .auto-btn2{
+    background-color: #fff;
+}
+#radio3:checked~.navigation-auto .auto-btn3{
+    background-color: #fff;
+}
+.slider-container {
+    margin-top: -170px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    width: 100%;
+    height: 100vh; /* 100% da altura da viewport */
 }
