@@ -1,15 +1,19 @@
 .card {
+
   background-color: #f2f2f2;
-  border-radius: 25px;
+  border-radius: 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 20px;
-  margin: 20px;
+  margin: 55px;
   width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
+  position: relative;
+  top: -80px;
+
 }
 
 .card h2 {
@@ -33,7 +37,7 @@
 
 .card button {
   border: none;
-  border-radius: 5px;
+  border-radius: 18px;
   padding: 10px 20px;
   background-color: rgb(246, 148, 0);
   color: white;
