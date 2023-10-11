@@ -11,17 +11,43 @@
 
 
 <body>
-  <div class="page">
-    <form method="POST" class="formLogin">
-      <h1>Login</h1>
-      <p>Digite os seus dados de acesso no campo abaixo.</p>
-      <label for="email">E-mail</label>
-      <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
-      <label for="password">Senha</label>
-      <input type="password" placeholder="Digite seu e-mail" />
-      <a href="/">Esqueci minha senha</a>
-      <input type="submit" value="Acessar" class="btn" />
-    </form>
+  <div class="box">
+    <div class="img-box">
+      <img src="src/imagemm.png" alt="">
+    </div>
+    <div class="form-box">
+      <h2>criar conta</h2>
+      <p> já é um membro? <a href="login.html">LOGIN</a></p>
+      <form action="#">
+        <div class="input-group">
+          <label for="nome"> nome completo</label>
+          <input type="text" id="nome" placeholder="digite seu nome completo" required>
+        </div>
+
+        <div class="input-group">
+          <label for="Email"> E-mail </label>
+          <input type="text" id="E-mail" placeholder="digite o seu E-mail" required>
+        </div>
+
+        <div class="input-group w50">
+          <label for="senha"> senha </label>
+          <input type="password" id="senha" placeholder="digite sua senha" required>
+        </div>
+
+        <div class="input-group w50">
+          <label for="Confirmarsenha"> Confirmar senha </label>
+          <input type="password" id="Confirmarsenha" placeholder="confirme senha" required>
+        </div>
+
+        <div class="input-group">
+          <button>Cadastrar</button>
+
+        </div>
+
+      </form>
+
+    </div>
   </div>
+
 
 </body>
