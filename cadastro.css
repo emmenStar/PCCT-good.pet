@@ -6,8 +6,8 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'EB Garamond', serif;
-font-family: 'Playfair Display', serif;
-  
+  font-family: 'Playfair Display', serif;
+
 
 }
 
@@ -20,10 +20,12 @@ body {
   justify-content: center;
   padding: 20px;
   min-height: 100vh;
+  background: rgb(85, 230, 210);
+  background: linear-gradient(288deg, rgba(85, 230, 210, 1) 13%, rgba(54, 170, 155, 1) 38%, rgba(54, 170, 155, 1) 49%, rgba(54, 170, 155, 1) 60%, rgba(85, 230, 210, 1) 96%);
 
 }
 
-.w50 {
+.background .w50 {
   width: 50%;
   float: left;
   padding-right: 15px;
@@ -37,7 +39,7 @@ body {
 }
 
 .img-box {
-  background-color: #65BEB2 ;
+  background-color: #17574F;
   width: 80%;
   display: flex;
   align-items: center;
@@ -52,7 +54,7 @@ body {
 
 
 .form-box {
-  background-color: #9AD6CE ;
+  background-color: #9AD6CE;
   backdrop-filter: blur(40px);
   padding: 30px 40px;
   width: 50%;
@@ -77,21 +79,21 @@ body {
 
 .form-box form {
   margin: 20px 0;
-  
+
 }
 
-.input-group{
+.input-group {
   margin: 15px 0;
   display: flex;
   flex-direction: column;
 }
 
-.input-group button{
+.input-group button {
   width: 100px;
   height: auto;
 }
 
-#button-container{
+#button-container {
   margin: auto;
   display: block;
   margin-top: 4em;
@@ -108,9 +110,10 @@ form.input-group label {
   display: block;
   margin-top: 5px;
 }
-form .input-group input{
+
+form .input-group input {
   width: 100%;
-  height:46px;
+  height: 46px;
   background-color: rgba(255, 255, 255, 0.32);
   border-radius: 20px;
   outline: none;
@@ -119,5 +122,44 @@ form .input-group input{
   font: 15px;
   color: #616161;
 
+}
 
+form .input-group input:focus {
+  border-color: #ffff;
+}
+
+form .input-group button {
+  width: 100%;
+  height: 47px;
+  background: #17574F;
+  border-radius: 20px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  margin-top: 15;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 16;
+}
+
+@media (max-width:930px) {
+  .img-box {
+    display: none;
+  }
+
+  .box {
+    width: 700px;
+  }
+
+  .form-box {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  @media (max-width) {
+    .w50 {
+      width: 100%;
+      padding: 0%;
+    }
+  }
 }
