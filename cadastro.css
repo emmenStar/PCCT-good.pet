@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display&display=swap');
+
 
 * {
   padding: 0%;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Playfair+Display', sans-serif;
+  font-family: 'EB Garamond', serif;
+font-family: 'Playfair Display', serif;
+  
 
 }
 
@@ -34,7 +37,7 @@ body {
 }
 
 .img-box {
-  background-color: rgb(154, 214, 206);
+  background-color: #65BEB2 ;
   width: 80%;
   display: flex;
   align-items: center;
@@ -49,7 +52,7 @@ body {
 
 
 .form-box {
-  background-color: rgb(101, 190, 178);
+  background-color: #9AD6CE ;
   backdrop-filter: blur(40px);
   padding: 30px 40px;
   width: 50%;
@@ -67,17 +70,36 @@ body {
 }
 
 .form-box p a {
-  color: blueviolet;
+  color: rgb(25, 0, 255);
   text-decoration: none;
 
 }
 
 .form-box form {
   margin: 20px 0;
+  
+}
+
+.input-group{
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group button{
+  width: 100px;
+  height: auto;
+}
+
+#button-container{
+  margin: auto;
+  display: block;
+  margin-top: 4em;
 }
 
 form.input-group {
   margin-bottom: 15px;
+
 }
 
 form.input-group label {
@@ -85,4 +107,17 @@ form.input-group label {
   font-weight: bold;
   display: block;
   margin-top: 5px;
+}
+form .input-group input{
+  width: 100%;
+  height:46px;
+  background-color: rgba(255, 255, 255, 0.32);
+  border-radius: 20px;
+  outline: none;
+  border: 2px solid transparent;
+  padding: 15px;
+  font: 15px;
+  color: #616161;
+
+
 }
