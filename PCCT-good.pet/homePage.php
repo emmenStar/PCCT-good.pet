@@ -8,7 +8,7 @@
   <meta name="viewport" content="whidth=device-whidth, initial-scale=1.0">
   <title>Good.pet</title>
   <link rel="stylesheet" href="css/Homepage2.css">
-  <link rel="stylesheet" href="css/homepageCard.css">
+  <link rel="stylesheet" href="css/card.css">
   <link rel="stylesheet" href="css/cadastro.html">
   <script src="../goodpet/src/homepage3.js" defer>
   </script>
@@ -35,7 +35,7 @@
       </ul>
 
       <div class="toggle_btn">
-        <i class="fa-regular fa bars" i>
+        <i class="fa-regular f a bars" i>
       </div>
       <a class="logo" href="servicos.html">
         <img src="src/usuario.png" height="90px">
@@ -52,10 +52,10 @@
 
 
         <div class="slide first">
-          <img src="src/carrossel1 (1).png" alt="">
+          <img src="src/slider1.png " alt="">
         </div>
         <div class="slide">
-          <img src="src/carrossel2.png" alt="">
+          <img src="src/slider2.png " alt="">
         </div>
         <div class="slide">
           <img src="src/carrossel3.png" alt="">
@@ -75,79 +75,54 @@
   </div>
   </div>
   </div>
+  </div>
+  </div>
   <div class="container">
-    <!-- Card 1 -->
-    <div class="card card-1">
-      <!-- card-header -->
-      <div class="card-header">
-        <img src="src/adotar1.png" class="card-img" />
+    <div class="card">
+      <div class="img">
+        <img src="src/card1.png">
       </div>
-      <!-- card-header -->
-      <!-- card-body -->
-      <div class="card-body">
-        <h3 class="card-titulo">ADOÇÃO</h3>
-        <h2 class="card-local">louie</h2>
-        <p class="card-texto">
-          olá, este é o louie, ele está para adoção.Ele tem apenas 8 meses e sua raça é Shih tzu
+      <h1>github</h1>
+      <div class="content">
+        <p>
+          cuide ncsjhdushdhdhfjvhyftergjjdhyy8rhjhufrijituggkjjuf9rtir
         </p>
+        <a href="#">Read More</a>
       </div>
-      <!-- card-body -->
-      <!-- card-footer -->
-      <div class="card-footer">
-        <a href="#">Ver Mais</a>
-      </div>
-      <!-- card-footer -->
     </div>
-    <!-- Card 1 -->
-    <!-- Card 2 -->
-    <div class="card card-2">
-      <!-- card-header -->
-      <div class="card-header">
-        <img src="src/adotar2.png" class="card-img" />
-      </div>
-      <!-- card-header -->
-
-      <!-- card-body -->
-      <div class="card-body">
-        <h2 class="card-titulo">ADOÇÃO!</h2>
-        <h2 class="card-local">nick</h2>
-        <p class="card-texto">
-          olá, este é o louie, ele está para adoção.Ele tem apenas 8 meses e sua raça é Shih tzu
-        </p>
+    <!-- segundo card-->
+    <div class="container">
+      <div class="card">
+        <div class="img">
+          <img src="src/card2.png ">
+        </div>
+        <h1>facebook</h1>
+        <div class="content">
+          <p>
+            cuide ncsjhdushdhdhfjvhyftergjjdhyy8rhjhufrijituggkjjuf9rtir
+          </p>
+          <a href="#">Read More</a>
+        </div>
       </div>
 
-      <!-- card-body -->
-      <!-- card-footer -->
-      <div class="card-footer">
-        <a href="#">Ver Mais</a>
-      </div>
-      <!-- card-footer -->
-    </div>
-    <!-- Card 2 -->
+      <!-- terceiro card-->
+      <div class="container">
+        <div class="card">
+          <div class="img">
+            <img src="src/card3.png">
+          </div>
+          <h1>instagram</h1>
+          <div class="content">
+            <p>
+              cuide ncsjhdushdhdhfjvhyftergjjdhyy8rhjhufrijituggkjjuf9rtir
+            </p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
 
-    <!-- Card 3 -->
-    <div class="card card-3">
-      <!-- card-header -->
-      <div class="card-header">
-        <img src="src/adotar3.png" class="card-img" />
       </div>
-      <!-- card-header -->
-      <!-- card-body -->
-      <div class="card-body">
-        <h2 class="card-titulo">ADOÇÃO!</h2>
-        <h3 class="card-local">tutu</h3>
-        <p class="card-texto">
-          olá, este é o louie, ele está para adoção.Ele tem apenas 8 meses e sua raça é Shih tzu
-        </p>
-      </div>
-      <!-- card-body -->
-      <!-- card-footer -->
-      <div class="card-footer">
-        <a href="#">Ver Mais</a>
-      </div>
-      <!-- card-footer -->
     </div>
-    <!-- Card 3 -->
+
 </body>
 
 </html>
