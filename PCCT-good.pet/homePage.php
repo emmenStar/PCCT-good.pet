@@ -8,9 +8,10 @@
   <meta name="viewport" content="whidth=device-whidth, initial-scale=1.0">
   <title>Good.pet</title>
   <link rel="stylesheet" href="css/Homepage2.css">
-  <link rel="stylesheet" href="css/card.css">
+  <link rel="stylesheet" href="card.css">
   <link rel="stylesheet" href="css/cadastro.html">
   <script src="../goodpet/src/homepage3.js" defer>
+
   </script>
 </head>
 
@@ -34,12 +35,16 @@
         <li><a href="contato.html">CONTATO</a></li>
       </ul>
 
-      <div class="toggle_btn">
+      <!--<div class="toggle_btn">
         <i class="fa-regular f a bars" i>
       </div>
       <a class="logo" href="servicos.html">
         <img src="src/usuario.png" height="90px">
-        </ul>
+        </ul>-->
+      <div class="btn">PERFIL</div>
+      <a href="perfil.html"></a>
+
+
 
     </nav>
   </header>
@@ -55,7 +60,7 @@
           <img src="src/slider1.png " alt="">
         </div>
         <div class="slide">
-          <img src="src/slider2.png " alt="">
+          <img src="src/slider2 (1).png " alt="">
         </div>
         <div class="slide">
           <img src="src/carrossel3.png" alt="">
@@ -77,52 +82,136 @@
   </div>
   </div>
   </div>
-  <div class="container">
-    <div class="card">
-      <div class="img">
-        <img src="src/card1.png">
+
+  <div class="a">
+    <figure class="profile-card">
+
+      <div class="profile-header">
+        <img src="" alt="Capa Perfil">
       </div>
-      <h1>github</h1>
-      <div class="content">
-        <p>
-          cuide ncsjhdushdhdhfjvhyftergjjdhyy8rhjhufrijituggkjjuf9rtir
-        </p>
-        <a href="#">Read More</a>
-      </div>
-    </div>
-    <!-- segundo card-->
-    <div class="container">
-      <div class="card">
-        <div class="img">
-          <img src="src/card2.png ">
+
+      <div class="profile-body">
+
+        <div class="img-perfil">
+          <img src="src/capa-perfil.png" title="Loop Nerd" alt="perfil">
         </div>
-        <h1>facebook</h1>
-        <div class="content">
+
+        <div class="titulo">seu pet é seu melhor amigo</div>
+        <figcaption class="descricao">
+
           <p>
-            cuide ncsjhdushdhdhfjvhyftergjjdhyy8rhjhufrijituggkjjuf9rtir
+
+            <b>a</b><br>
+            “Ninguém como um cachorro sabe apreciar a natureza extraordinária da sua conversa.”<br>
+            Para Agilizar o Seu Tempo.
+
           </p>
-          <a href="#">Read More</a>
+
+        </figcaption>
+
+        <div class="redes-sociais">
+
+          <ul>
+
+            <li><a href="#" title="Facebook"> <i class="icon icon-facebook"></i> </a></li>
+            <li><a href="#" title="Instagram"> <i class="icon icon-instagram"></i> </a></li>
+            <li><a href="#" title="Twitter"> <i class="icon icon-twitter"></i> </a></li>
+            <li><a href="#" title="Pinterest"> <i class="icon icon-pinterest"></i> </a></li>
+
+          </ul>
         </div>
       </div>
 
-      <!-- terceiro card-->
-      <div class="container">
-        <div class="card">
-          <div class="img">
-            <img src="src/card3.png">
-          </div>
-          <h1>instagram</h1>
-          <div class="content">
-            <p>
-              cuide ncsjhdushdhdhfjvhyftergjjdhyy8rhjhufrijituggkjjuf9rtir
-            </p>
-            <a href="#">Read More</a>
-          </div>
+
+    </figure><!--Profile Card-->
+
+    <figure class="profile-card">
+
+      <div class="profile-header">
+        <img src="uploads/capa-perfil.png" alt="Capa Perfil">
+      </div>
+
+      <div class="profile-body">
+
+        <div class="img-perfil">
+          <img src="" title="Loop Nerd" alt="perfil">
         </div>
 
-      </div>
-    </div>
+        <div class="titulo">cuide do seu pet</div>
+        <figcaption class="descricao">
 
+          <p>
+
+            <b>b</b><br>
+            “Ninguém como um cachorro sabe apreciar a natureza extraordinária da sua conversa.”<br>
+            Para Agilizar o Seu Tempo.
+
+          </p>
+
+        </figcaption>
+
+        <div class="redes-sociais">
+
+          <ul>
+
+            <li><a href="#" title="Facebook"> <i class="icon icon-facebook"></i> </a></li>
+            <li><a href="#" title="Instagram"> <i class="icon icon-instagram"></i> </a></li>
+            <li><a href="#" title="Twitter"> <i class="icon icon-twitter"></i> </a></li>
+            <li><a href="#" title="Pinterest"> <i class="icon icon-pinterest"></i> </a></li>
+
+          </ul>
+        </div>
+      </div>
+
+
+    </figure><!--Profile Card-->
+
+    <figure class="profile-card">
+
+      <div class="profile-header">
+        <img src="uploads/capa-perfil.png" alt="Capa Perfil">
+      </div>
+
+      <div class="profile-body">
+
+        <div class="img-perfil">
+          <img src="" title="Loop Nerd" alt="perfil">
+        </div>
+
+        <div class="titulo">ame seu pet</div>
+        <figcaption class="descricao">
+
+          <p>
+
+            <b>c</b><br>
+            “Ninguém como um cachorro sabe apreciar a natureza extraordinária da sua conversa.”<br>
+            Para Agilizar o Seu Tempo.
+
+          </p>
+
+        </figcaption>
+
+        <div class="redes-sociais">
+
+          <ul>
+
+            <li><a href="#" title="Facebook"> <i class="icon icon-facebook"></i> </a></li>
+            <li><a href="#" title="Instagram"> <i class="icon icon-instagram"></i> </a></li>
+            <li><a href="#" title="Twitter"> <i class="icon icon-twitter"></i> </a></li>
+            <li><a href="#" title="Pinterest"> <i class="icon icon-pinterest"></i> </a></li>
+
+          </ul>
+        </div>
+      </div>
+
+
+    </figure><!--Profile Card-->
+
+
+
+  </div>
+
+  </div>
 </body>
 
 </html>
