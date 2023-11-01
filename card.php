@@ -1,221 +1,116 @@
-<!DOCTYPE html>
-<html lang="pt - br">
-
-<head>
-  <meta charset="=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" contaent="IE=edge">
-  <meta name="viewport" content="whidth=device-whidth, initial-scale=1.0">
-  <title>Good.pet</title>
-  <link rel="stylesheet" href="css/Homepage2.css">
-  <link rel="stylesheet" href="card.css">
-  <link rel="stylesheet" href="css/cadastro.html">
-  <script src="../goodpet/src/homepage3.js" defer>
-
-  </script>
-</head>
-
-<body>
-  <header>
-    <nav>
-      <a class="logo" href="">
-        <img src="src/logo (1).png">
-      </a>
-
-      <div class="mobile-menu">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
-      </div>
-      <ul class="nav-list">
-        <li><a href="homePage.html">HOME</a></li>
-        <li><a href="sobre.html">SOBRE</a></li>
-        <li><a href="perdios.html">PERDIDOS</a></li>
-        <li><a href="adoção.html">ADOÇÃO</a></li>
-        <li><a href="contato.html">CONTATO</a></li>
-      </ul>
-
-      <!--<div class="toggle_btn">
-        <i class="fa-regular f a bars" i>
-      </div>
-      <a class="logo" href="servicos.html">
-        <img src="src/usuario.png" height="90px">
-        </ul>-->
-      <div class="btn">PERFIL</div>
-      <a href="perfil.html"></a>
+.a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 
 
-    </nav>
-  </header>
-  <div class="slider-container">
-    <div class="slider">
-      <div class="slides">
-        <input type="radio" name="radio-btn" id="radio1">
-        <input type="radio" name="radio-btn" id="radio2">
-        <input type="radio" name="radio-btn" id="radio3">
+.profile-card {
+
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  text-align: center;
+  margin: auto;
+  box-shadow: 0px 0px 8px rgba(56, 56, 56, 0.1);
+
+}
+
+.profile-card .profile-header {
+
+  min-height: 88px;
+
+}
+
+.profile-card .profile-body {
+
+  background-color: #ffffff;
+  padding: 20px 40px 40px 40px;
+
+}
+
+.profile-card .profile-body .img-perfil {
+
+  margin-top: -85px;
+  margin-bottom: 20px;
+
+}
+
+.profile-card .profile-body .img-perfil img {
+
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 3px;
+  background-color: #ededed;
+
+}
+
+.profile-card .profile-body .titulo {
+
+  font-size: 30px;
+  color: #007cff;
+}
+
+.profile-card .profile-body .descricao {
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 20px 0px 30px 0px;
+
+}
+
+.redes-sociais ul {
+
+  list-style-type: none;
+
+}
+
+.redes-sociais ul li {
+
+  display: inline-block;
+
+}
+
+.redes-sociais ul li a {
+
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  display: block;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 0.5s ease-out;
+
+}
 
 
-        <div class="slide first">
-          <img src="src/slider1.png " alt="">
-        </div>
-        <div class="slide">
-          <img src="src/slider2 (1).png " alt="">
-        </div>
-        <div class="slide">
-          <img src="src/carrossel3.png" alt="">
-        </div>
-        <div class="navigation-auto">
-          <div class="auto-btn1"></div>
-          <div class="auto-btn2"></div>
-          <div class="auto-btn3"></div>
-        </div>
-      </div>
-      <div class="navigation-bar">
-        <label class="manual-btn" for="radio1"></label>
-        <label class="manual-btn" for="radio2"></label>
-        <label class="manual-btn" for="radio3"></label>
-      </div>
-    </div>
-  </div>
-  </div>
-  </div>
-  </div>
-  </div>
+.redes-sociais ul {
 
-  <div class="a">
-    <figure class="profile-card">
+  margin: 0;
+  padding: 0;
 
-      <div class="profile-header">
-        <img src="" alt="Capa Perfil">
-      </div>
+}
 
-      <div class="profile-body">
+.redes-sociais ul li a:hover {
 
-        <div class="img-perfil">
-          <img src="src/capa-perfil.png" title="Loop Nerd" alt="perfil">
-        </div>
+  background-color: #007cff;
+  border: 1px solid #007cff;
 
-        <div class="titulo">seu pet é seu melhor amigo</div>
-        <figcaption class="descricao">
+}
 
-          <p>
+.redes-sociais ul li a i {
 
-            <b>a</b><br>
-            “Ninguém como um cachorro sabe apreciar a natureza extraordinária da sua conversa.”<br>
-            Para Agilizar o Seu Tempo.
+  line-height: 40px;
+  color: #666;
 
-          </p>
+}
 
-        </figcaption>
+.redes-sociais ul li a i:hover,
+.redes-sociais ul li a:hover i {
 
-        <div class="redes-sociais">
-
-          <ul>
-
-            <li><a href="#" title="Facebook"> <i class="icon icon-facebook"></i> </a></li>
-            <li><a href="#" title="Instagram"> <i class="icon icon-instagram"></i> </a></li>
-            <li><a href="#" title="Twitter"> <i class="icon icon-twitter"></i> </a></li>
-            <li><a href="#" title="Pinterest"> <i class="icon icon-pinterest"></i> </a></li>
-
-          </ul>
-        </div>
-      </div>
-
-
-    </figure><!--Profile Card-->
-
-    <figure class="profile-card">
-
-      <div class="profile-header">
-        <img src="uploads/capa-perfil.png" alt="Capa Perfil">
-      </div>
-
-      <div class="profile-body">
-
-        <div class="img-perfil">
-          <img src="" title="Loop Nerd" alt="perfil">
-        </div>
-
-        <div class="titulo">cuide do seu pet</div>
-        <figcaption class="descricao">
-
-          <p>
-
-            <b>b</b><br>
-            “Ninguém como um cachorro sabe apreciar a natureza extraordinária da sua conversa.”<br>
-            Para Agilizar o Seu Tempo.
-
-          </p>
-
-        </figcaption>
-
-        <div class="redes-sociais">
-
-          <ul>
-
-            <li><a href="#" title="Facebook"> <i class="icon icon-facebook"></i> </a></li>
-            <li><a href="#" title="Instagram"> <i class="icon icon-instagram"></i> </a></li>
-            <li><a href="#" title="Twitter"> <i class="icon icon-twitter"></i> </a></li>
-            <li><a href="#" title="Pinterest"> <i class="icon icon-pinterest"></i> </a></li>
-
-          </ul>
-        </div>
-      </div>
-
-
-    </figure><!--Profile Card-->
-
-    <figure class="profile-card">
-
-      <div class="profile-header">
-        <img src="uploads/capa-perfil.png" alt="Capa Perfil">
-      </div>
-
-      <div class="profile-body">
-
-        <div class="img-perfil">
-          <img src="" title="Loop Nerd" alt="perfil">
-        </div>
-
-        <div class="titulo">ame seu pet</div>
-        <figcaption class="descricao">
-
-          <p>
-
-            <b>c</b><br>
-            “Ninguém como um cachorro sabe apreciar a natureza extraordinária da sua conversa.”<br>
-            Para Agilizar o Seu Tempo.
-
-          </p>
-
-        </figcaption>
-
-        <div class="redes-sociais">
-
-          <ul>
-
-            <li><a href="#" title="Facebook"> <i class="icon icon-facebook"></i> </a></li>
-            <li><a href="#" title="Instagram"> <i class="icon icon-instagram"></i> </a></li>
-            <li><a href="#" title="Twitter"> <i class="icon icon-twitter"></i> </a></li>
-            <li><a href="#" title="Pinterest"> <i class="icon icon-pinterest"></i> </a></li>
-
-          </ul>
-        </div>
-      </div>
-
-
-    </figure><!--Profile Card-->
-
-
-
-  </div>
-
-  </div>
-</body>
-
-</html>
-</div>
-</body>
-
-</html>
+  color: #ffffff;
+}
