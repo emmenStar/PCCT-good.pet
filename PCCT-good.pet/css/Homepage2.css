@@ -29,10 +29,27 @@ a {
 
 }
 
-.photo_usuario {
+/*.photo_usuario {
   height: 30px;
+}*/
+
+.btn {
+  padding: 10px 8px;
+  width: 50px;
+  color: #9AD6CE;
+  background: #ffffff;
+  border: 15% solid #9AD6CE;
+  border-radius: 10px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
 
 
+}
+
+.btn:hover {
+  background: #847cd1;
+  transition: background 2s;
 }
 
 nav {
@@ -153,10 +170,6 @@ footer p {
   position: absolute;
 }
 
-.slides {
-  display: flex;
-
-}
 
 .navigation-bar {
   position: absolute;
@@ -200,11 +213,6 @@ input {
   transition: 0.5s;
 }
 
-.slide img {
-  width: 80%;
-  height: 100%;
-  border-radius: 10px;
-}
 
 #radio1:checked~.first {
   margin-left: 0;
@@ -254,4 +262,21 @@ body {
   justify-content: center;
   align-items: center;
 
+}
+
+/* CSS media query dentro de um stylesheet */
+@media (min-width: 800px) {
+  .slide img {
+    width: 90%;
+    height: 110%;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 800px) {
+  .slide img2 {
+    width: 90%;
+    height: 110%;
+    border-radius: 10px;
+  }
 }
